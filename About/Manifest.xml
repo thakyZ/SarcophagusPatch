@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Manifest>
+  <identifier>NekoBoiNick.Vanilla.SarcophagusPatch</identifier>
+  <version>1.0.0</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadAfter />
+  <suggests />
+  <manifestUri>https://raw.githubusercontent.com/thakyZ/SarcophagusPatch/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/thakyZ/SarcophagusPatch/releases</downloadUri>
+</Manifest>
