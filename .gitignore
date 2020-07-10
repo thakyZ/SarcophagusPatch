@@ -4,7 +4,6 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-*.user
 dist/
 .vs/
 
