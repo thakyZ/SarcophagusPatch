@@ -17,9 +17,16 @@
       <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>
   </modDependencies>
-  <description>
-    Fixes a bug with vanilla Sarcophagus
-    (This is the dev version of Sarcophagus Patch. The release version of About.xml is available for editing at About/About-Release.xml. Edits made on this file or on the temporary About/About.xml won't show up on the release version. Use VisualStudio to build a "Release" version of this mod when ready to upload your mod!)
-  </description>
+  <description>Fixes a bug with vanilla Sarcophagi
+
+Basically if you create a masterwork or legendary sarcophagi (even modded ones) it will try to create an art description before you bury someone which it shouldn't do because there are already measures in place to make sure it doesn't generate an art description upon artwork initialization.
+    
+Untested with any mods that change how quality works, but as long as none of them overwrite the function "SendCraftNotification" it should be fine.
+
+Tested and works with:
+- Crafting Quality Rebalanced
+- Mad Skills
+- Quality Builder
+- Utility Columns</description>
   <url>https://steamcommunity.com/id/thakyZ/myworkshopfiles/?appid=294100</url>
 </ModMetaData>
